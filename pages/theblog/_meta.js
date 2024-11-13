@@ -1,6 +1,6 @@
 export default {
     theblog: 'About The Blog',
-    worldevents: 'World Events (Impacts Last Contact)',
+    worldevents: 'World Events',
     //politics: 'Politics',
     translife: 'Transgender Life',
     //technology: 'Technology',
