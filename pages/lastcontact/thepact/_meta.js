@@ -5,5 +5,5 @@ export default {
     rescue: 'Rescue',
     adjudication: 'Adjudication',
     detection: 'Detection',
-    contact: 'contact'
+    contact: 'Contact'
   }
