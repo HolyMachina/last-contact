@@ -10,10 +10,7 @@ export default {
       pagination: false
     }
   },
-  //aboutjosie: "About Josie",
-  //privacy: "Privacy Policy",
-  //license: "Terms and Conditions",
   lastcontact: {title: "Last Contact", type: "page"},
   theblog: {title: "Josie's Ramblings", type: "page"},
-  about: {title: "About Stuff", type: "page"}
+  about: {title: "About", type: "page"}
 }
