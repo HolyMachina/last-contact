@@ -41,5 +41,28 @@ export default {
       dark: 76,
       light: 45
      }
+  },
+
+  footer: {
+    content: (
+      <span>
+        <a href="https://last-contact.net/">Last Contact</a> created by <a href="https://last-contact.net/about/aboutjosie">Josephine Troiani</a> 2013 - {new Date().getFullYear()}.<br/>
+        Content is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank">
+        CC BY-SA 4.0.</a><br/>
+        Website is licened under MIT ©{' '} by <a href="https://nextra.site" target="_blank">Nextra</a>.
+      </span>
+      //   Last Contact Website built with 
+      //   <a href="https://nextra.site" target="_blank">
+      //     Nextra
+      //   </a> © {' '} MIT .
+
+      //   {/* MIT {new Date().getFullYear()} ©{' '}
+      //   <a href="https://nextra.site" target="_blank">
+      //     Nextra
+      //   </a>
+      //   .
+      //   Last Contact © {new Date().getFullYear()} ©{' '} by Josephine Troiani is licensed under CC BY-SA 4.0  */}
+      // </span>
+    )
   }
 }
