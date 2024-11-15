@@ -51,18 +51,6 @@ export default {
         CC BY-SA 4.0.</a><br/>
         Website is licened under MIT ©{' '} by <a href="https://nextra.site" target="_blank">Nextra</a>.
       </span>
-      //   Last Contact Website built with 
-      //   <a href="https://nextra.site" target="_blank">
-      //     Nextra
-      //   </a> © {' '} MIT .
-
-      //   {/* MIT {new Date().getFullYear()} ©{' '}
-      //   <a href="https://nextra.site" target="_blank">
-      //     Nextra
-      //   </a>
-      //   .
-      //   Last Contact © {new Date().getFullYear()} ©{' '} by Josephine Troiani is licensed under CC BY-SA 4.0  */}
-      // </span>
     )
   }
 }
