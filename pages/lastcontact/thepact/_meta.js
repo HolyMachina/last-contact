@@ -5,5 +5,6 @@ export default {
     rescue: 'Rescue',
     adjudication: 'Adjudication',
     detection: 'Detection',
-    contact: 'Contact'
+    contact: 'Contact',
+    //pactchapter: 'The Pact',
   }

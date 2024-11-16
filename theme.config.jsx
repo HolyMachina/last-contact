@@ -4,7 +4,7 @@ import { useConfig } from 'nextra-theme-docs'
 export default {
   docsRepositoryBase: 'https://github.com/HolyMachina/last-contact/tree/main',
   
-  logo: <span>Last Contact<br />Status: On Hiatus</span>,
+  logo: <span>Last Contact<br />Fridays!</span>,
   
   editLink: {component: null},
   
