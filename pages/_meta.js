@@ -13,5 +13,4 @@ export default {
   lastcontact: {title: "Last Contact", type: "page"},
   theblog: {title: "The Blog", type: "page"},
   about: {title: "About", type: "page"}
-  
 }
