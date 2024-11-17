@@ -48,7 +48,7 @@ export default {
       <span>
         Hit me up on <a rel="me" href="https://cutie.city/@Josie"  target="_blank">Mastodon</a> or <a href="https://www.linkedin.com/in/jotroian/"  target="_blank">LinkedIn</a>.<br />
         <a href="https://last-contact.net/">Last Contact</a> &#169; {new Date().getFullYear()} by <a href="https://last-contact.net/about/aboutjosie">Josephine Troiani</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">
-        CC BY-SA 4.0</a><img width={80} height={15} src='https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-nc-sa.svg' /> 
+        CC BY-SA 4.0</a><br /><img width={88} height={31} src='https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg' /> 
       </span>
     )
   }
