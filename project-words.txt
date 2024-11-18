@@ -1,4 +1,5 @@
 Alestra
+Allestra
 Allorien
 Azumanga
 Bioengineered
@@ -14,10 +15,13 @@ Eurafrican
 Evangelion
 Fangte
 FCOM
+Fontana
 Gundam
 Hami
+Hedlund
 INCO
 Jaedon
+Karman
 Lindroth
 Lineke
 Mahtan
@@ -27,6 +31,7 @@ Nextra
 Nichijou
 OKBOMB
 Oortwijn
+Planum
 Samatha
 Taito
 Tatsuda
