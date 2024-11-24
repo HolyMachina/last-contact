@@ -74,7 +74,7 @@ export default {
     saturation: 100,
     lightness: {
       dark: 76,
-      light: 45
+      light: 32
      }
   },
 
