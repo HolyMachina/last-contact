@@ -4,11 +4,9 @@ import Image from 'next/image'
 
 export default {
   head: (
-    <>
+    //<>
       <link rel="icon" href="/favicon.ico" sizes="any" />
-      <meta property="og:title" content="Last Contact" />
-      <meta property="og:description" content="The sci-fi political space opera." />
-    </>
+    //</>
   ),
 
   docsRepositoryBase: 'https://github.com/HolyMachina/last-contact/tree/main',
