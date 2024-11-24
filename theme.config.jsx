@@ -14,10 +14,17 @@ export default {
       <>
         <title>{frontMatter.front_matter_title}</title>
         <link rel="icon" href="/favicon.ico" sizes="any" />
+        <meta property="og:url" content={url} />
         <meta name="title" content={frontMatter.front_matter_title} />
+        <meta name="og:title" content={frontMatter.front_matter_title} />
         <meta name="author" content={frontMatter.author} />
         <meta name="description" content={frontMatter.description} />
-        <meta name="keywords" content="sci-fi, science fiction, fiction, space opera, epic, political, politics" />
+        <meta name="og:description" content={frontMatter.description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/favicon.ico" />
+        <meta name="copyright" content="Josephine Troiani" />
+        <meta name="robots" content="follow, index" />
+        <meta name="twitter:card" content="summary" />
         <meta name="application-name" content="Nextra"/>
         <meta name="generator" content="Next.js"/>
       </>
