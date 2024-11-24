@@ -6,8 +6,8 @@ export default {
   head: (
     <>
       <link rel="icon" href="/favicon.ico" sizes="any" />
-      <meta property="title" content="Last Contact" />
-      <meta property="description" content="A sci-fi political space opera in acts." />
+      <meta name="title" content="Last Contact" />
+      <meta name="description" content="A sci-fi political space opera in acts." />
     </>
   ),
 
