@@ -12,10 +12,14 @@ export default {
   
     return (
       <>
-        <title>{frontMatter.title || ' | Last Contact'}</title>
+        <title>{frontMatter.front_matter_title}</title>
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <meta name="title" content={frontMatter.title || ' | Last Contact'} />
-        <meta name="description" content="A sci-fi political space opera in acts." />
+        <meta name="title" content={frontMatter.front_matter_title} />
+        <meta name="author" content={frontMatter.author} />
+        <meta name="description" content={frontMatter.description} />
+        <meta name="keywords" content="sci-fi, science fiction, fiction, space opera, epic, political, politics" />
+        <meta name="application-name" content="Nextra"/>
+        <meta name="generator" content="Next.js"/>
       </>
     )
   },
