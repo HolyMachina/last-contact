@@ -3,13 +3,22 @@ import { useConfig } from 'nextra-theme-docs'
 import Image from 'next/image'
 
 export default {
-  head: (
-    <>
-      <link rel="icon" href="/favicon.ico" sizes="any" />
-      <meta name="title" content="Last Contact" />
-      <meta name="description" content="A sci-fi political space opera in acts." />
-    </>
-  ),
+  head(){
+    const { asPath, defaultLocale, locale } = useRouter()
+    const { frontMatter } = useConfig()
+    const url =
+      'https://last-contact.net' +
+      (defaultLocale === locale ? asPath : `/${locale}${asPath}`)
+  
+    return (
+      <>
+        <title>{frontMatter.title || ' | Last Contact'}</title>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <meta name="title" content={frontMatter.title || ' | Last Contact'} />
+        <meta name="description" content="A sci-fi political space opera in acts." />
+      </>
+    )
+  },
 
   docsRepositoryBase: 'https://github.com/HolyMachina/last-contact/tree/main',
   
