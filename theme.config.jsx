@@ -4,14 +4,21 @@ import Image from 'next/image'
 
 export default {
   head: (
-    //<>
+    <>
       <link rel="icon" href="/favicon.ico" sizes="any" />
-    //</>
+      <meta property="title" content="Last Contact" />
+      <meta property="description" content="A sci-fi political space opera in acts." />
+    </>
   ),
 
   docsRepositoryBase: 'https://github.com/HolyMachina/last-contact/tree/main',
   
-  logo: <span>Last Contact<br />Fridays!</span>,
+  logo:(
+    <>
+      <Image width={60} height={60} src="/favicon.ico" alt="Last Contact Logo, Pink LC in a pink ring on black background."/>
+      <span>Last Contact<br/>Fridays!</span>
+    </>
+    ),
   
   editLink: {component: null},
   
