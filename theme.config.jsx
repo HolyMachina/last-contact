@@ -68,7 +68,7 @@ export default {
       </svg>
     )
   },
-  
+
   color: {
     hue: 351,
     saturation: 100,
