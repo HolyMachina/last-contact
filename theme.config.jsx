@@ -1,7 +1,16 @@
 import { useRouter } from 'next/router'
 import { useConfig } from 'nextra-theme-docs'
+import Image from 'next/image'
 
 export default {
+  head: (
+    <>
+      <link rel="icon" href="/favicon.ico" sizes="any" />
+      <meta property="og:title" content="Last Contact" />
+      <meta property="og:description" content="The sci-fi political space opera." />
+    </>
+  ),
+
   docsRepositoryBase: 'https://github.com/HolyMachina/last-contact/tree/main',
   
   logo: <span>Last Contact<br />Fridays!</span>,
@@ -48,7 +57,7 @@ export default {
       <span>
         Hit me up on <a rel="me" href="https://cutie.city/@Josie"  target="_blank">Mastodon</a> or <a href="https://www.linkedin.com/in/jotroian/"  target="_blank">LinkedIn</a>.<br />
         <a href="https://last-contact.net/">Last Contact</a> &#169; {new Date().getFullYear()} by <a href="https://last-contact.net/about/aboutjosie">Josephine Troiani</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">
-        CC BY-SA 4.0</a><br /><img width={88} height={31} src='https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg' />
+        CC BY-SA 4.0</a><br /><Image width={88} height={31} src='https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg' alt="Official CC BY-SA press kit banner." />
       </span>
     )
   }
