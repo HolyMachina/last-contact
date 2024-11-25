@@ -14,7 +14,7 @@ export default {
       <>
         <title>{frontMatter.front_matter_title}</title>
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="canonical" href="https://last-contact.net" />
+        <link rel="canonical" href={url} />
         <meta name="title" content={frontMatter.front_matter_title} />
         <meta name="author" content={frontMatter.author} />
         <meta name="copyright" content="Josephine Troiani" />
