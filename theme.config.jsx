@@ -36,7 +36,7 @@ export default {
   
   logo:(
     <>
-      <Image width={60} height={60} src="/favicon.ico" alt="Last Contact Logo, Pink LC in a pink ring on black background."/>
+      <Image width={60} height={60} src="/images/LastContactLogo.jpg" alt="Last Contact Logo, Pink LC in a pink ring on black background."/>
       <span>Last Contact<br/>Fridays!</span>
     </>
     ),
