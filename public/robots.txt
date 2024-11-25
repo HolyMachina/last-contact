@@ -8,7 +8,7 @@ User-Agent: Facebookbot
 User-Agent: FacebookBot
 User-Agent: Meta-ExternalAgent
 User-Agent: Meta-ExternalFetcher
-User-agent: OAI-SearchBot
+User-Agent: OAI-SearchBot
 User-Agent: diffbot
 User-Agent: PerplexityBot
 User-Agent: Google-Extended
@@ -22,3 +22,5 @@ User-Agent: Youbot
 User-Agent: anthropic-ai
 User-Agent: cohere-ai
 Disallow: /
+
+Sitemap: https://last-contact.net/sitemap.xml
