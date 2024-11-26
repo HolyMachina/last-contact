@@ -57,7 +57,6 @@ export default function robots() {
                         'ArchiveBot',
                         'AspiegelBot',
                         'Baiduspider',
-                        'bingbot',
                         'BLEXBot',
                         'crawler4j',
                         'Csnibot',
