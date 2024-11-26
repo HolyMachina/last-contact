@@ -1,5 +1,5 @@
 export default {
-    theblog: 'About The Blog',
+    index: 'About The Blog',
     worldevents: 'World Events',
     //politics: 'Politics',
     translife: 'Transgender Life',
