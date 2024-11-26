@@ -21,6 +21,8 @@ export default function robots() {
                         'Diffbot',
                         'DuckAssistBot',
                         'FacebookBot',
+                        'firecrawl',
+                        'Firecrawl',
                         'FriendlyCrawler',
                         'Google-Extended',
                         'GoogleOther',
