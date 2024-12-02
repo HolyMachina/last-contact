@@ -6,8 +6,63 @@
       "statusCode": 301
     },
     {
+      "route": "/aboutjosie",
+      "redirect": "/about/josie",
+      "statusCode": 301
+    },
+    {
+      "route": "/author/holymachina",
+      "redirect": "/about/josie",
+      "statusCode": 301
+    },
+    {
       "route": "/lastcontact/lastcontact",
       "redirect": "/lastcontact",
+      "statusCode": 301
+    },
+    {
+      "route": "/lastcontact/lastcontact",
+      "redirect": "/lastcontact",
+      "statusCode": 301
+    },
+    {
+      "route": "/lastcontact/aboutlastcontact",
+      "redirect": "/lastcontact",
+      "statusCode": 301
+    },
+    {
+      "route": "/lastcontact/ajudication",
+      "redirect": "/lastcontact/thepact/adjudication",
+      "statusCode": 301
+    },
+    {
+      "route": "/2024/10/15/world-war-three",
+      "redirect": "/lastcontact/factions/worldwarthree",
+      "statusCode": 301
+    },
+    {
+      "route": "/blog",
+      "redirect": "/theblog",
+      "statusCode": 301
+    },
+    {
+      "route": "/theblog/theblog",
+      "redirect": "/theblog",
+      "statusCode": 301
+    },
+    {
+      "route": "/robots933456.txt",
+      "redirect": "/robots.txt",
+      "statusCode": 301
+    },
+    {
+      "route": "/2023/12/18/dedication",
+      "redirect": "/about/josie",
+      "statusCode": 301
+    },
+    {
+      "route": "/category/last-contact/act-zero-prologue",
+      "redirect": "/lastcontact/prologue/dedication",
       "statusCode": 301
     },
     {
@@ -17,11 +72,6 @@
     },
     {
       "route": "/.well-known*",
-      "redirect": "/",
-      "statusCode": 301
-    },
-    {
-      "route": "/wp-includes*",
       "redirect": "/",
       "statusCode": 301
     },
@@ -56,17 +106,47 @@
       "statusCode": 301
     },
     {
+      "route": "/home.php",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
       "route": "/.env*",
       "redirect": "/",
       "statusCode": 301
     },
     {
-      "route": "/author/holymachina",
+      "route": "/wp-content*",
       "redirect": "/",
       "statusCode": 301
     },
     {
-      "route": "/wp-content*",
+      "route": "/wp-admin*",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/wp-includes*",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "*wlwmanifest.xml",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/ads.txt",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/app-ads.txt",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/sellers.json",
       "redirect": "/",
       "statusCode": 301
     }
