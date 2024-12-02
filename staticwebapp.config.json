@@ -44,6 +44,11 @@
       "route": "/.git/*",
       "redirect": "/",
       "statusCode": 301
+    },
+    {
+      "route": "*wp-json*",
+      "redirect": "/",
+      "statusCode": 301
     }
   ]
 }
