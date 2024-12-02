@@ -7,17 +7,6 @@
     },
     {
       "route": "/wp-login.php",
-      "methods": [
-        "get",
-        "head",
-        "post",
-        "delete",
-        "put",
-        "connect",
-        "options",
-        "trace",
-        "patch"
-      ],
       "redirect": "/",
       "statusCode": 301
     },
