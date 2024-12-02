@@ -16,12 +16,12 @@
       "statusCode": 301
     },
     {
-      "route": "*.well-known*",
+      "route": "/.well-known*",
       "redirect": "/",
       "statusCode": 301
     },
     {
-      "route": "*wp-includes*",
+      "route": "/wp-includes*",
       "redirect": "/",
       "statusCode": 301
     },
@@ -46,7 +46,7 @@
       "statusCode": 301
     },
     {
-      "route": "*wp-json*",
+      "route": "/wp-json*",
       "redirect": "/",
       "statusCode": 301
     },
@@ -66,7 +66,7 @@
       "statusCode": 301
     },
     {
-      "route": "*wp-content*",
+      "route": "/wp-content*",
       "redirect": "/",
       "statusCode": 301
     }
