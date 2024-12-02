@@ -24,6 +24,11 @@
       "route": "/lastcontact/lastcontact",
       "redirect": "/lastcontact",
       "statusCode": 301
+    },
+    {
+      "route": "/status.php",
+      "redirect": "/",
+      "statusCode": 301
     }
   ]
 }
