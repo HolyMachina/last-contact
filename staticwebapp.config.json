@@ -39,6 +39,11 @@
       "route": "/statistics.json",
       "redirect": "/",
       "statusCode": 301
+    },
+    {
+      "route": "/.git/*",
+      "redirect": "/",
+      "statusCode": 301
     }
   ]
 }
