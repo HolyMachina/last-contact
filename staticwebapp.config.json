@@ -34,6 +34,11 @@
       "route": "/api/v1/*",
       "redirect": "/",
       "statusCode": 301
+    },
+    {
+      "route": "/statistics.json",
+      "redirect": "/",
+      "statusCode": 301
     }
   ]
 }
