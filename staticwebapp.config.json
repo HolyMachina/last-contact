@@ -12,17 +12,6 @@
     },
     {
       "route": "/.well-known/nodeinfo",
-      "methods": [
-        "get",
-        "head",
-        "post",
-        "put",
-        "delete",
-        "connect",
-        "options",
-        "trace",
-        "patch"
-      ],
       "redirect": "/",
       "statusCode": 301
     }
