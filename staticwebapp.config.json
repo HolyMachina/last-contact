@@ -29,6 +29,11 @@
       "route": "/status.php",
       "redirect": "/",
       "statusCode": 301
+    },
+    {
+      "route": "/api/v1/*",
+      "redirect": "/",
+      "statusCode": 301
     }
   ]
 }
