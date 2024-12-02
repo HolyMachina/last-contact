@@ -11,7 +11,7 @@
       "statusCode": 301
     },
     {
-      "route": "/.well-known/nodeinfo",
+      "route": "*.well-known*",
       "redirect": "/",
       "statusCode": 301
     },
