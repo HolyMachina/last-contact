@@ -34,6 +34,7 @@ Delfoi
 Dolorès
 Eblypso
 EECOM
+Eiran
 Ekstrim
 Elendil
 Elessar
@@ -98,6 +99,9 @@ Planum
 Psion
 Rumil
 Sadrill
+Saibansho
+Saikō
+Sairaala
 Samatha
 Serim
 Siawn
