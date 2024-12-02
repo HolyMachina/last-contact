@@ -49,6 +49,11 @@
       "route": "*wp-json*",
       "redirect": "/",
       "statusCode": 301
+    },
+    {
+      "route": "/xmlrpc.php",
+      "redirect": "/",
+      "statusCode": 301
     }
   ]
 }
