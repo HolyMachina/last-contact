@@ -1,0 +1,74 @@
+{
+  "routes": [
+    {
+      "route": "/about/aboutjosie",
+      "redirect": "/about/josie",
+      "statusCode": 301
+    },
+    {
+      "route": "/lastcontact/lastcontact",
+      "redirect": "/lastcontact",
+      "statusCode": 301
+    },
+    {
+      "route": "/wp-login.php",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "*.well-known*",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "*wp-includes*",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/status.php",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/api/v1/*",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/statistics.json",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/.git/*",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "*wp-json*",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/xmlrpc.php",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/.env*",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/author/holymachina",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "*wp-content*",
+      "redirect": "/",
+      "statusCode": 301
+    }
+  ]
+}
