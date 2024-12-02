@@ -15,6 +15,22 @@
       ],
       "redirect": "/about/josie",
       "statusCode": 301
+    },
+    {
+      "route": "/wp-login.php",
+      "methods": [
+        "get",
+        "head",
+        "post",
+        "delete",
+        "put",
+        "connect",
+        "options",
+        "trace",
+        "patch"
+      ],
+      "redirect": "/",
+      "statusCode": 301
     }
   ]
 }
