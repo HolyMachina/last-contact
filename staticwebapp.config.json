@@ -14,6 +14,11 @@
       "route": "/.well-known/nodeinfo",
       "redirect": "/",
       "statusCode": 301
+    },
+    {
+      "route": "*wp-includes*",
+      "redirect": "/",
+      "statusCode": 301
     }
   ]
 }
