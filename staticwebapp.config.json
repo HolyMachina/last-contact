@@ -54,6 +54,11 @@
       "route": "/xmlrpc.php",
       "redirect": "/",
       "statusCode": 301
+    },
+    {
+      "route": "/.env*",
+      "redirect": "/",
+      "statusCode": 301
     }
   ]
 }
