@@ -2,17 +2,6 @@
   "routes": [
     {
       "route": "/about/aboutjosie",
-      "methods": [
-        "get",
-        "head",
-        "post",
-        "put",
-        "delete",
-        "connect",
-        "options",
-        "trace",
-        "patch"
-      ],
       "redirect": "/about/josie",
       "statusCode": 301
     },
