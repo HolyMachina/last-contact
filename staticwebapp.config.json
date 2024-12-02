@@ -59,6 +59,11 @@
       "route": "/.env*",
       "redirect": "/",
       "statusCode": 301
+    },
+    {
+      "route": "/author/holymachina",
+      "redirect": "/",
+      "statusCode": 301
     }
   ]
 }
