@@ -64,6 +64,11 @@
       "route": "/author/holymachina",
       "redirect": "/",
       "statusCode": 301
+    },
+    {
+      "route": "*wp-content*",
+      "redirect": "/",
+      "statusCode": 301
     }
   ]
 }
