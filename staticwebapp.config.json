@@ -19,6 +19,11 @@
       "route": "*wp-includes*",
       "redirect": "/",
       "statusCode": 301
+    },
+    {
+      "route": "/lastcontact/lastcontact",
+      "redirect": "/lastcontact",
+      "statusCode": 301
     }
   ]
 }
