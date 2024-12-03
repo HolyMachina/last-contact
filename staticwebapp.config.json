@@ -121,7 +121,7 @@
       "statusCode": 301
     },
     {
-      "route": "*wlwmanifest.xml",
+      "route": "*/wlwmanifest.xml",
       "redirect": "/",
       "statusCode": 301
     },
