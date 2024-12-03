@@ -120,11 +120,11 @@
       "redirect": "/",
       "statusCode": 301
     },
-    {
-      "route": "*/wlwmanifest.xml",
-      "redirect": "/",
-      "statusCode": 301
-    },
+    //{
+    //  "route": "*/wlwmanifest.xml",
+    //  "redirect": "/",
+    //  "statusCode": 301
+    //},
     {
       "route": "/ads.txt",
       "redirect": "/",
