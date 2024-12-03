@@ -31,8 +31,58 @@
       "statusCode": 301
     },
     {
-      "route": "/blog",
+      "route": "/blog*",
       "redirect": "/theblog",
+      "statusCode": 301
+    },
+    {
+      "route": "/web*",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/wordpress*",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/wp*",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/2020*",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/2019*",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/2020*",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/shop*",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/test*",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/site*",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/cms*",
+      "redirect": "/",
       "statusCode": 301
     },
     {
