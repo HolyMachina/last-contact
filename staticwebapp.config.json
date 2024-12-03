@@ -134,11 +134,6 @@
       "route": "/sellers.json",
       "redirect": "/",
       "statusCode": 301
-    },
-    {
-      "route": "*/wlwmanifest.xml",
-      "redirect": "/",
-      "statusCode": 301
     }
   ]
 }
