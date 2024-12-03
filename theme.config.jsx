@@ -61,10 +61,10 @@ export default {
   },
 
   chat: {
-    link: 'https://www.linkedin.com/in/jotroian/',
+    link: 'https://bsky.app/profile/holymachina.bsky.social',
     icon: (
       <svg width="24" height="24">
-      <image width="24" height="24" href="/images/linkedin-logo.png" alt="LinkedIn Logo" />
+      <image width="24" height="24" href="/images/bluesky-logo.png" alt="LinkedIn Logo" />
       </svg>
     )
   },

@@ -2,8 +2,8 @@
 	"scripts": {
 		"dev": "next",
 		"build": "next build",
-		"start": "next start",
-		"postbuild": "next-sitemap"
+		"postbuild": "next-sitemap",
+		"start": "next start"
 	},
 	"dependencies": {
 		"next": "^15.0.3",
