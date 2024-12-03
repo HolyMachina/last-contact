@@ -71,7 +71,7 @@
       "statusCode": 301
     },
     {
-      "route": "/api/v1/*",
+      "route": "/api/v1*",
       "redirect": "/",
       "statusCode": 301
     },
@@ -81,12 +81,12 @@
       "statusCode": 301
     },
     {
-      "route": "/.git/*",
+      "route": "/.git*",
       "redirect": "/",
       "statusCode": 301
     },
     {
-      "route": "/wp-json/*",
+      "route": "/wp-json*",
       "redirect": "/",
       "statusCode": 301
     },
@@ -101,22 +101,22 @@
       "statusCode": 301
     },
     {
-      "route": "/.env*",
+      "route": "/.env",
       "redirect": "/",
       "statusCode": 301
     },
     {
-      "route": "/wp-content/*",
+      "route": "/wp-content*",
       "redirect": "/",
       "statusCode": 301
     },
     {
-      "route": "/wp-admin/*",
+      "route": "/wp-admin*",
       "redirect": "/",
       "statusCode": 301
     },
     {
-      "route": "/wp-includes/*",
+      "route": "/wp-includes*",
       "redirect": "/",
       "statusCode": 301
     },
