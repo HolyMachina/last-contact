@@ -51,17 +51,17 @@
       "statusCode": 301
     },
     {
-      "route": "/2020*",
+      "route": "/2020/wp-includes*",
       "redirect": "/",
       "statusCode": 301
     },
     {
-      "route": "/2019*",
+      "route": "/2019/wp-includes*",
       "redirect": "/",
       "statusCode": 301
     },
     {
-      "route": "/2020*",
+      "route": "/2021/wp-includes*",
       "redirect": "/",
       "statusCode": 301
     },
