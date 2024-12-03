@@ -21,16 +21,6 @@
       "statusCode": 301
     },
     {
-      "route": "/lastcontact/lastcontact",
-      "redirect": "/lastcontact",
-      "statusCode": 301
-    },
-    {
-      "route": "/lastcontact/aboutlastcontact",
-      "redirect": "/lastcontact",
-      "statusCode": 301
-    },
-    {
       "route": "/lastcontact/ajudication",
       "redirect": "/lastcontact/thepact/adjudication",
       "statusCode": 301
