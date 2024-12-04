@@ -49,6 +49,11 @@
       "route": "/category/last-contact/act-zero-prologue",
       "redirect": "/lastcontact/prologue/dedication",
       "statusCode": 301
+    },
+    {
+      "route": "https://lastcontact.space/",
+      "redirect": "https://last-contact.net",
+      "statusCode": 301
     }
   ]
 }
