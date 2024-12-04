@@ -61,7 +61,7 @@ export default {
   },
 
   chat: {
-    link: 'https://bsky.app/profile/holymachina.bsky.social',
+    link: 'https://bsky.app/profile/last-contact.net',
     icon: (
       <svg width="24" height="24">
       <image width="24" height="24" href="/images/bluesky-logo.png" alt="LinkedIn Logo" />
