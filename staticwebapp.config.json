@@ -11,11 +11,6 @@
       "statusCode": 301
     },
     {
-      "route": "/author/holymachina",
-      "redirect": "/about/josie",
-      "statusCode": 301
-    },
-    {
       "route": "/lastcontact/lastcontact",
       "redirect": "/lastcontact",
       "statusCode": 301
@@ -25,19 +20,36 @@
       "redirect": "/lastcontact/thepact/adjudication",
       "statusCode": 301
     },
-    {
-      "route": "/2024/10/15/world-war-three",
-      "redirect": "/lastcontact/factions/worldwarthree",
-      "statusCode": 301
-    },
+
     {
       "route": "/theblog/theblog",
       "redirect": "/theblog",
       "statusCode": 301
     },
+
     {
-      "route": "/robots933456.txt",
-      "redirect": "/robots.txt",
+      "route": "https://lastcontact.space/",
+      "redirect": "https://last-contact.net",
+      "statusCode": 301
+    },
+    {
+      "route": "https://lastcontact.space/author/holymachina",
+      "redirect": "https://last-contact.net/about/josie",
+      "statusCode": 301
+    },
+    {
+      "route": "/author/holymachina",
+      "redirect": "/about/josie",
+      "statusCode": 301
+    },
+    {
+      "route": "https://lastcontact.space/2023/12/23/memories/",
+      "redirect": "https://last-contact.net/lastcontact/thepact/memories",
+      "statusCode": 301
+    },
+    {
+      "route": "/2023/12/23/memories/",
+      "redirect": "/lastcontact/thepact/memories",
       "statusCode": 301
     },
     {
@@ -47,12 +59,12 @@
     },
     {
       "route": "/category/last-contact/act-zero-prologue",
-      "redirect": "/lastcontact/prologue/dedication",
+      "redirect": "/lastcontact/prologue",
       "statusCode": 301
     },
     {
-      "route": "https://lastcontact.space/",
-      "redirect": "https://last-contact.net",
+      "route": "/2024/10/15/world-war-three",
+      "redirect": "/lastcontact/factions/worldwarthree",
       "statusCode": 301
     }
   ]
