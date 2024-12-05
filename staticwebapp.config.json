@@ -82,11 +82,6 @@
       "statusCode": 301
     },
     {
-      "route": "/2023/12/18/dedication",
-      "redirect": "/lastcontact/prologue/dedication",
-      "statusCode": 301
-    },
-    {
       "route": "/2023/12/18/its-happening",
       "redirect": "/theblog/sitenews/itshappening",
       "statusCode": 301
