@@ -26,11 +26,6 @@
       "statusCode": 301
     },
     {
-      "route": "/theblog/theblog",
-      "redirect": "/theblog",
-      "statusCode": 301
-    },
-    {
       "route": "/compendium",
       "redirect": "/lastcontact/compendium",
       "statusCode": 301
