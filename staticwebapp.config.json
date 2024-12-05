@@ -20,10 +20,19 @@
       "redirect": "/lastcontact/thepact/adjudication",
       "statusCode": 301
     },
-
     {
       "route": "/theblog/theblog",
       "redirect": "/theblog",
+      "statusCode": 301
+    },
+    {
+      "route": "/theblog/theblog",
+      "redirect": "/theblog",
+      "statusCode": 301
+    },
+    {
+      "route": "/compendium",
+      "redirect": "/lastcontact/compendium",
       "statusCode": 301
     },
 
@@ -33,18 +42,8 @@
       "statusCode": 301
     },
     {
-      "route": "https://lastcontact.space/author/holymachina",
-      "redirect": "https://last-contact.net/about/josie",
-      "statusCode": 301
-    },
-    {
       "route": "/author/holymachina",
       "redirect": "/about/josie",
-      "statusCode": 301
-    },
-    {
-      "route": "https://lastcontact.space/2023/12/23/memories/",
-      "redirect": "https://last-contact.net/lastcontact/thepact/memories",
       "statusCode": 301
     },
     {
@@ -63,8 +62,88 @@
       "statusCode": 301
     },
     {
+      "route": "/category/last-contact",
+      "redirect": "/lastcontact",
+      "statusCode": 301
+    },
+    {
+      "route": "/category/last-contact/act-one-the-pact",
+      "redirect": "/lastcontact/prologue",
+      "statusCode": 301
+    },
+    {
       "route": "/2024/10/15/world-war-three",
       "redirect": "/lastcontact/factions/worldwarthree",
+      "statusCode": 301
+    },
+    {
+      "route": "/pages/lastcontact/thepact/adjudication",
+      "redirect": "/lastcontact/thepact/adjudication",
+      "statusCode": 301
+    },
+    {
+      "route": "/pages/index",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/2023/12/18/dedication",
+      "redirect": "/lastcontact/prologue/dedication",
+      "statusCode": 301
+    },
+    {
+      "route": "/2023/12/18/its-happening",
+      "redirect": "/theblog/sitenews/itshappening",
+      "statusCode": 301
+    },
+    {
+      "route": "/2023/12/19/acknowledgement",
+      "redirect": "/lastcontact/prologue/acknowledgement",
+      "statusCode": 301
+    },
+    {
+      "route": "/lastcontact/aboutlastcontact",
+      "redirect": "/lastcontact",
+      "statusCode": 301
+    },
+    {
+      "route": "/2023/12/28/i-will-be/",
+      "redirect": "/theblog/translife/iwillbe",
+      "statusCode": 301
+    },
+    {
+      "route": "/2023/12/25/rescue/",
+      "redirect": "/lastcontact/thepact/rescue",
+      "statusCode": 301
+    },
+    {
+      "route": "/category/josies-ramblings/",
+      "redirect": "/theblog",
+      "statusCode": 301
+    },
+    {
+      "route": "/privacy-policy/",
+      "redirect": "/about/privacy",
+      "statusCode": 301
+    },
+    {
+      "route": "/2024/05/16/contact/",
+      "redirect": "/lastcontact/thepact/contact",
+      "statusCode": 301
+    },
+    {
+      "route": "/category/josies-ramblings/site-news/",
+      "redirect": "/theblog/sitenews",
+      "statusCode": 301
+    },
+    {
+      "route": "https://lastcontact.space/favicon.ico",
+      "redirect": "https://last-contact.net/favicon.ico",
+      "statusCode": 301
+    },
+    {
+      "route": "http://lastcontact.space/favicon.ico",
+      "redirect": "https://last-contact.net/favicon.ico",
       "statusCode": 301
     }
   ]
