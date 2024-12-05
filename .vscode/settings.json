@@ -26,5 +26,12 @@
         },
         "custom": true, // Enable the `custom` dictionary
         "internal-terms": false // Disable the `internal-terms` dictionary
-    }
+    },
+    "markdown.validate.ignoredLinks": [
+        "/lastcontact/thepact/discovery",
+        "/lastcontact/factions/fracture",
+        "/lastcontact/factions/spillover",
+        "/lastcontact/thepact/contact",
+        "/lastcontact/thepact/adjudication"
+    ]
 }
