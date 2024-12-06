@@ -5,6 +5,7 @@ export default {
     memories: 'Memories',
     hatred: 'Hatred',
     rescue: 'Rescue',
+    breakthrough: 'Breakthrough',
     adjudication: 'Adjudication',
     detection: 'Detection',
     contact: 'Contact',
