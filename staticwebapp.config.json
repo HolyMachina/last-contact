@@ -87,8 +87,28 @@
       "statusCode": 301
     },
     {
+      "route": "/theblog/itshappening",
+      "redirect": "/theblog/sitenews/itshappening",
+      "statusCode": 301
+    },
+    {
       "route": "/2023/12/19/acknowledgement",
       "redirect": "/lastcontact/prologue/acknowledgement",
+      "statusCode": 301
+    },
+    {
+      "route": "/theblog/notthisweek",
+      "redirect": "/theblog/sitenews/notthisweek",
+      "statusCode": 301
+    },
+    {
+      "route": "/theblog/itsback",
+      "redirect": "/theblog/sitenews/itsback",
+      "statusCode": 301
+    },
+    {
+      "route": "/lastcontact/timeline",
+      "redirect": "/lastcontact/compendium/timeline",
       "statusCode": 301
     },
     {
@@ -97,7 +117,22 @@
       "statusCode": 301
     },
     {
+      "route": "/lastcontact/characters",
+      "redirect": "/lastcontact/compendium/characters",
+      "statusCode": 301
+    },
+    {
+      "route": "/theblog/okbomb",
+      "redirect": "/theblog/worldevents/okbomb",
+      "statusCode": 301
+    },
+    {
       "route": "/2023/12/28/i-will-be/",
+      "redirect": "/theblog/translife/iwillbe",
+      "statusCode": 301
+    },
+    {
+      "route": "/theblog/iwillbe",
       "redirect": "/theblog/translife/iwillbe",
       "statusCode": 301
     },
