@@ -32,7 +32,7 @@
     },
 
     {
-      "route": "https://lastcontact.space/",
+      "route": "https://lastcontact.space",
       "redirect": "https://last-contact.net",
       "statusCode": 301
     },
@@ -127,7 +127,7 @@
       "statusCode": 301
     },
     {
-      "route": "/2023/12/28/i-will-be/",
+      "route": "/2023/12/28/i-will-be",
       "redirect": "/theblog/translife/iwillbe",
       "statusCode": 301
     },
@@ -137,27 +137,27 @@
       "statusCode": 301
     },
     {
-      "route": "/2023/12/25/rescue/",
+      "route": "/2023/12/25/rescue",
       "redirect": "/lastcontact/thepact/rescue",
       "statusCode": 301
     },
     {
-      "route": "/category/josies-ramblings/",
+      "route": "/category/josies-ramblings",
       "redirect": "/theblog",
       "statusCode": 301
     },
     {
-      "route": "/privacy-policy/",
+      "route": "/privacy-policy",
       "redirect": "/about/privacy",
       "statusCode": 301
     },
     {
-      "route": "/2024/05/16/contact/",
+      "route": "/2024/05/16/contact",
       "redirect": "/lastcontact/thepact/contact",
       "statusCode": 301
     },
     {
-      "route": "/category/josies-ramblings/site-news/",
+      "route": "/category/josies-ramblings/site-news",
       "redirect": "/theblog/sitenews",
       "statusCode": 301
     },
