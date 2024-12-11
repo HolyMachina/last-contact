@@ -170,6 +170,21 @@
       "route": "http://lastcontact.space/favicon.ico",
       "redirect": "https://last-contact.net/favicon.ico",
       "statusCode": 301
+    },
+    {
+      "route": "/page/2",
+      "redirect": "/lastcontact",
+      "statusCode": 301
+    },
+    {
+      "route": "/page/1",
+      "redirect": "/lastcontact",
+      "statusCode": 301
+    },
+    {
+      "route": "/compendium/characters",
+      "redirect": "/lastcontact/compendium/characters",
+      "statusCode": 301
     }
   ]
 }
