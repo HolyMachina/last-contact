@@ -2,6 +2,8 @@ export default {
     index: 'Act 01 - The Pact',
     discovery: 'Discovery',
     beginning: 'Beginning',
+    blowup: 'Blow Up',
+    themeeting: 'The Meeting',
     memories: 'Memories',
     hatred: 'Hatred',
     rescue: 'Rescue',
