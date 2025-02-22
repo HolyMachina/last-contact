@@ -11,5 +11,6 @@ export default {
     adjudication: 'Adjudication',
     detection: 'Detection',
     contact: 'Contact',
+    welcoming: 'Welcoming',
     //pactchapter: 'The Pact',
   }
