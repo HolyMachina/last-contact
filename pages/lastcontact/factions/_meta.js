@@ -3,5 +3,6 @@ export default {
     spillover: 'Spillover',
     worldwarthree: 'World War Three',
     fracture: 'Fracture',
+    building: 'Building',
     //worldwarfive: 'World War Five',
   }
