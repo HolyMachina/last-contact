@@ -4,6 +4,7 @@ export default {
     worldwarthree: 'World War Three',
     fracture: 'Fracture',
     building: 'Building',
-    bridge: 'Bridge'
+    bridge: 'Bridge',
+    historyclass: 'History Class'
     //worldwarfive: 'World War Five',
   }
