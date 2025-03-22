@@ -1,14 +1,16 @@
 {
 	"scripts": {
-  		"dev": "next --turbopack",
-  		"build": "next build",
-  		"start": "next start"
+		"dev": "next --turbopack",
+		"build": "next build",
+		"postbuild": "next-sitemap",
+		"start": "next start"
 	},
 	"dependencies": {
 		"next": "^15.2.3",
-		"react": "^19.0.0",
-		"react-dom": "^19.0.0",
+		"next-sitemap": "^4.2.3",
 		"nextra": "^4.2.17",
-		"nextra-theme-docs": "^4.2.17"
+		"nextra-theme-docs": "^4.2.17",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0"
 	}
 }
