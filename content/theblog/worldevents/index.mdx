@@ -2,13 +2,26 @@
 front_matter_title: About World Events | Josie's Blog
 description: An idex page for the Site news category and a brief description of what the section of the blog is geared toward.
 author: Josie Troiani
+asIndexPage: true
 ---
-# Site News
+
+import { Cards } from 'nextra/components'
+import { MDXRemote } from 'nextra/mdx-remote'
+import { createIndexPage, getPageMap } from 'nextra/page-map'
+
+# World Events
 
 This is the section of the blog where I will put all the articles about the different events that relate directly to the Last Contact narrative.
 
 ## Articles
 
-| Page | Description |
-| --------------- | ------------ |
-| [O.K. Bomb](/theblog/worldevents/okbomb.mdx) | A blog post about how the Oklahoma bombing event in 1995 stuck with me for my entire life. |
+<MDXRemote
+  compiledSource={
+    await createIndexPage(
+      await getPageMap('/theblog/worldevents')
+    )
+  }
+  components={{
+    Cards
+  }}
+/>

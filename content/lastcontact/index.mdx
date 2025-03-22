@@ -2,8 +2,14 @@
 front_matter_title: About Last Contact | Last Contact
 description: Last Contact is a sci-fi political thriller space opera set in the 23rd and 24th century humanity. While its website based it reads like an online book.
 author: Josie Troiani
+asIndexPage: true
 ---
-# About Last Contact
+
+import { Cards } from 'nextra/components'
+import { MDXRemote } from 'nextra/mdx-remote'
+import { createIndexPage, getPageMap } from 'nextra/page-map'
+
+# Last Contact
 
 ## Where did I find myself?
 
@@ -19,8 +25,56 @@ It will have some stories outside of that of the 23rd and 24th centuries to illu
 
 It's based on a timeline I wrote in 2005 of political and science predictions that got me from here to there.. but as current events and news happens the timeline, and therefore the story shift slightly to accommodate.
 
-## Sections?
+## Chapters
 
-Most of the story occurs in various "Acts" this is the key area of the fiction story/universe.
+### Act 00: Prologue
 
-There is also going to be a detailed compendium or encyclopedia of places, people, and events... including the initial timeline I wrote in 2005.
+<MDXRemote
+  compiledSource={
+    await createIndexPage(
+      await getPageMap('/lastcontact/prologue')
+    )
+  }
+  components={{
+    Cards
+  }}
+/>
+
+### Act 01: The Pact
+
+<MDXRemote
+  compiledSource={
+    await createIndexPage(
+      await getPageMap('/lastcontact/thepact')
+    )
+  }
+  components={{
+    Cards,
+  }}
+/>
+
+### Act 02: Factions
+
+<MDXRemote
+  compiledSource={
+    await createIndexPage(
+      await getPageMap('/lastcontact/factions')
+    )
+  }
+  components={{
+    Cards,
+  }}
+/>
+
+### The Compendium
+
+<MDXRemote
+  compiledSource={
+    await createIndexPage(
+      await getPageMap('/lastcontact/compendium')
+    )
+  }
+  components={{
+    Cards,
+  }}
+/>

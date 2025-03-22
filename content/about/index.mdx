@@ -2,7 +2,25 @@
 front_matter_title: About the About Section | Last Contact
 description: A description page about the about section and the content it contains
 author: Josie Troiani
+asIndexPage: true
 ---
-# About the About Section
+import { Cards } from 'nextra/components'
+import { MDXRemote } from 'nextra/mdx-remote'
+import { createIndexPage, getPageMap } from 'nextra/page-map'
+
+# The About Section
 
 The about section contains biographical and personal information about the author (Josie) as well as license terms and privacy policy pages. You probably won't need these pages very often.
+
+## Pages
+
+<MDXRemote
+  compiledSource={
+    await createIndexPage(
+      await getPageMap('/about')
+    )
+  }
+  components={{
+    Cards,
+  }}
+/>

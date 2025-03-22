@@ -2,8 +2,14 @@
 front_matter_title: About Act 00 - The Prologue | Last Contact
 description: Last Contact is a sci-fi political thriller space opera set in the 23rd and 24th centuries. Act 00 - Prologue sees Tim Li, as the president reflect on his actions and asks humanity to forgive him and let him go.
 author: Josie Troiani
+asIndexPage: true
 ---
-# About Act 00: The Prologue
+
+import { Cards } from 'nextra/components'
+import { MDXRemote } from 'nextra/mdx-remote'
+import { createIndexPage, getPageMap } from 'nextra/page-map'
+
+# Act 00: The Prologue
 
 ## Synopsis
 
@@ -11,11 +17,13 @@ Tim Li, as the president reflects on his actions and asks humanity to forgive hi
 
 ## Chapters
 
-Here are the chapters included in Act 00 - Prologue.
-
-| Page | Date | Narrator |
-| --------------- | ------------ | ----- |
-| [Dedication](prologue/dedication.mdx) | November 17, 2306 CE | Timothy Li |
-| [Acknowledgement](prologue/acknowledgement.mdx) | November 17, 2306 CE | Timothy Li |
-| [The Three](prologue/thethree.mdx) | 2274 through 2278 CE | Gwen, Tim, Sam, Chancellor Fulton |
-| [Mission](prologue/mission.mdx) | July 21, 2278 CE | Jaedon Beyar |
+<MDXRemote
+  compiledSource={
+    await createIndexPage(
+      await getPageMap('/lastcontact/prologue')
+    )
+  }
+  components={{
+    Cards
+  }}
+/>
