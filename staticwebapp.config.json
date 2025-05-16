@@ -1,0 +1,9 @@
+{
+  "routes": [
+    {
+      "route": "https://lastcontact.space",
+      "redirect": "https://last-contact.net",
+      "statusCode": 301
+    }
+  ]
+}

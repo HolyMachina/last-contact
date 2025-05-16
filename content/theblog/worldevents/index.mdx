@@ -1,0 +1,27 @@
+---
+title: Index
+section: World Events Blog
+description: An idex page for the Site news category and a brief description of what the section of the blog is geared toward.
+author: Josie Troiani
+asIndexPage: true
+---
+import { Cards } from 'nextra/components'
+import { MDXRemote } from 'nextra/mdx-remote'
+import { createIndexPage, getPageMap } from 'nextra/page-map'
+
+# World Events
+
+This is the section of the blog where I will put all the articles about the different events that relate directly to the Last Contact narrative.
+
+## Articles
+
+<MDXRemote
+  compiledSource={
+    await createIndexPage(
+      await getPageMap('/theblog/worldevents')
+    )
+  }
+  components={{
+    Cards
+  }}
+/>

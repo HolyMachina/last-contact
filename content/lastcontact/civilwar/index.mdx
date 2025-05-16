@@ -1,0 +1,29 @@
+---
+title: Synopsis 
+section: Act 03 - Civil War
+description: Last Contact is a sci-fi political thriller space opera set in the 23rd and 24th centuries. Act 03 - Civil War focuses on a civil war between different factions within humanity.
+author: Josie Troiani
+asIndexPage: true
+---
+import { Cards } from 'nextra/components'
+import { MDXRemote } from 'nextra/mdx-remote'
+import { createIndexPage, getPageMap } from 'nextra/page-map'
+
+# Act 03: Civil War
+
+## Synopsis
+
+A civil war between different factions in humanity, locked in a stalemate for a nearly a century continues to draw bloodshed.
+
+## Chapters
+
+<MDXRemote
+  compiledSource={
+    await createIndexPage(
+      await getPageMap('/lastcontact/civilwar')
+    )
+  }
+  components={{
+    Cards
+  }}
+/>
