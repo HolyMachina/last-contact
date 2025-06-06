@@ -1,6 +1,6 @@
 {
 	"scripts": {
-		"dev": "next --turbopack",
+		"dev": "next",
 		"build": "next build",
 		"postbuild": "next-sitemap && pagefind --site .next/server/app --output-path public/_pagefind",
 		"start": "next start"
