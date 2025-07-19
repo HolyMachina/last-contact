@@ -67,24 +67,8 @@ const footer = (
  
 export default async function RootLayout({ children }) {
   return (
-    <html
-      // Not required, but good for SEO
-      lang="en"
-      // Required to be set
-      dir="ltr"
-      // Suggested by `next-themes` package https://github.com/pacocoursey/next-themes#with-app
-      suppressHydrationWarning
-    >
-      <Head
-      color={{
-        hue: 351,
-        saturation: 100,
-        lightness: {
-          light: 32,
-          dark: 76
-        }
-      }}
-      >
+    <html lang="en" dir="ltr" suppressHydrationWarning>
+      <Head color={{hue: 351, saturation: 100, lightness: {light: 32, dark: 76}}}>
         {
         /* Your additional tags should be passed as `children` of `<Head>` element */
         <meta name="rating" content="14 years" />
