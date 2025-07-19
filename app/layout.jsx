@@ -74,7 +74,6 @@ export default async function RootLayout({ children }) {
         <meta name="rating" content="14 years" />
         }
       </Head>
-
       <body>
         <Layout
           navbar={navbar}
