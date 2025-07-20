@@ -1,6 +1,6 @@
 ---
-title: Landing Page
-section: The Compendium
+title: Synopsis
+section: Act 02 - Factions
 description: Last Contact is a sci-fi political thriller space opera set in the 23rd and 24th centuries. This compendium has an encyclopedia like documentation of various items
 author: Josie Troiani
 asIndexPage: true
@@ -9,18 +9,18 @@ import { Cards } from 'nextra/components'
 import { MDXRemote } from 'nextra/mdx-remote'
 import { createIndexPage, getPageMap } from 'nextra/page-map'
 
-# The Compendium
+# Act 02: Factions
 
-## Where did I find myself?
+## Synopsis
 
-If you need or want extra documentation about the universe of Last Contact that information can be found here. While not directly related to the story it can help give some specifics that help provide a little more detail.
+As humanity fractures further apart factions form and define around shared ideologies.
 
-## Sections
+## Chapters
 
 <MDXRemote
   compiledSource={
     await createIndexPage(
-      await getPageMap('/lastcontact/compendium')
+      await getPageMap('/factions')
     )
   }
   components={{

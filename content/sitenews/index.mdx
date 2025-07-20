@@ -1,6 +1,6 @@
 ---
 title: Index
-section: Transgender Life Blog
+section: Site News Blog
 description: An idex page for the Site news category and a brief description of what the section of the blog is geared toward.
 author: Josie Troiani
 asIndexPage: true
@@ -11,14 +11,14 @@ import { createIndexPage, getPageMap } from 'nextra/page-map'
 
 # Site News
 
-This is the section of the blog where I will put all my thoughts on about my life as a transgender woman.
+This is where I put all the news about the website and the setup thereof.
 
 ## Articles
 
 <MDXRemote
   compiledSource={
     await createIndexPage(
-      await getPageMap('/theblog/translife')
+      await getPageMap('/sitenews')
     )
   }
   components={{
