@@ -14,6 +14,7 @@ export const metadata = {
   authors: [{name: "Josephine Troiani"},{name: "Josie Troiani"}],
   openGraph: {
     siteName: 'Last Contact',
+    image: '',
     locale: 'en_US',
     type: 'website'
   },
