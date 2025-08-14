@@ -45,10 +45,10 @@ const navbar = (
       <image width="24" height="24" href="/images/mastodon-logo.png" alt="Mastodon Logo" />
       </svg>
     }
-    chatLink='https://discord.gg/kGT7FA7fWr'
+    chatLink='https://bsky.app/profile/lastcontact.space'
     chatIcon={
       <svg width="24" height="24">
-      <image width="24" height="24" href="/images/discord-icon.png" alt="Discord Logo" />
+      <image width="24" height="24" href="/images/bluesky-logo.png" alt="BlueSky Logo" />
       </svg>
     }
   />
