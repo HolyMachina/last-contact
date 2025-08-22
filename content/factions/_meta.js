@@ -7,6 +7,7 @@ export default {
     bridge: 'Bridge',
     historyclass: 'History Class',
     thewall: 'The Wall',
-    avalon: 'Avalon'
+    avalon: 'Avalon',
+    polymertwins: 'Polymer Twins',
     //worldwarfive: 'World War Five',
   }
