@@ -1,4 +1,5 @@
 export default {
+    backdoor: 'Backdoor',
     reignite: 'Reignite',
     representation: 'Representation',
     projection: 'Projection',
