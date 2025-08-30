@@ -2,7 +2,7 @@
 	"scripts": {
 		"dev": "next",
 		"build": "next build",
-		"postbuild": "next-sitemap && pagefind --site .next/server/app --output-path out/_pagefind",
+		"postbuild": "next-sitemap && pagefind --site .next/server/app --output-path proddistro/_pagefind",
 		"start": "next start"
 	},
 	"dependencies": {
