@@ -3,5 +3,6 @@ export default {
     reignite: 'Reignite',
     representation: 'Representation',
     projection: 'Projection',
-    thegenerals: 'The Generals'
+    thegenerals: 'The Generals',
+    io: 'Io',
   }
