@@ -1,6 +1,6 @@
 export default {
     linktoportfolio: {
-    title: 'Josie\'s Portfolio',
+    title: 'About Josie',
     href: 'https://josietroiani.me',
     type: 'page'
   },
