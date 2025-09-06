@@ -5,8 +5,8 @@ export default {
     type: 'page'
   },
   linktoblog: {
-    title: 'Josie\'s Blog',
-    href: 'https://josietroiani.blog',
+    title: 'Tethics',
+    href: 'https://tethics.blog',
     type: 'page'
   },
   separatorone: {type: 'separator', title: 'Last Contact'},
