@@ -1,6 +1,1 @@
-.next
-.vscode
-pnpm-lock.yaml
-node_modules
-proddistro
-public/sitemap*
+.legacy
