@@ -1,0 +1,16 @@
+export default {
+    discovery: 'Discovery',
+    beginning: 'Beginning',
+    blowup: 'Blow Up',
+    themeeting: 'The Meeting',
+    keepingnotes: 'Keeping Notes',
+    memories: 'Memories',
+    hatred: 'Hatred',
+    rescue: 'Rescue',
+    breakthrough: 'Breakthrough',
+    adjudication: 'Adjudication',
+    detection: 'Detection',
+    contact: 'Contact',
+    welcoming: 'Welcoming',
+    pactchapter: 'The Pact',
+  }
