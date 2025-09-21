@@ -1,3 +1,11 @@
 :root {
   --accent: deeppink;
 }
+
+body {
+  grid-template-columns: 1fr minmax(30rem, 70rem) 1fr;
+}
+
+body > footer {
+  font-size: 1rem;
+}
