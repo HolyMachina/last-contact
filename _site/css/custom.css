@@ -44,7 +44,7 @@
   }
 }
 body {
-  grid-template-columns: 1fr minmax(30rem, 70rem) 1fr;
+  grid-template-columns: minmax(2rem,1fr) minmax(30rem, 70rem) minmax(2rem,1fr);
 }
 
 body > footer {
