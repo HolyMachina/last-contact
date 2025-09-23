@@ -10,5 +10,9 @@ EN Editor: acfinspace
 Location: Space
 Github: acfinspace
 
+Simple.CSS: Kev Quirk
+Location: UK
+Github: kevquirk
+
 /* SITE */
 Language: English
