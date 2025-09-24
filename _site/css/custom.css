@@ -50,3 +50,7 @@ body {
 body > footer {
   font-size: 1rem;
 }
+
+ul.chapt-nav {
+  list-style: none;
+}
