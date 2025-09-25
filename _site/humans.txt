@@ -1,0 +1,18 @@
+/* TEAM */
+Author & Developer: Josephine Troiani
+Nickname: Josie Troiani
+From: Chicago Metro, Illinois, United States
+Mastodon: holymachina@lgbtqia.space
+BlueSky: holymachina.bsky.social
+
+/* THANKS */
+EN Editor: acfinspace
+Location: Space
+Github: acfinspace
+
+Simple.CSS: Kev Quirk
+Location: UK
+Github: kevquirk
+
+/* SITE */
+Language: English
