@@ -16,8 +16,8 @@
     <link rel="author" href="humans.txt" />
     <title>Site News | Last Contact</title>
     <meta property="og:title" content="Site News | Last Contact"/>
-    <meta name="description" content="This is the page that lists all the various site news articles not realated to Last Contact canon."/>
-    <meta property="og:description" content="This is the page that lists all the various site news articles not realated to Last Contact canon."/>
+    <meta name="description" content="This is the page that lists all the various site news articles not related to Last Contact canon."/>
+    <meta property="og:description" content="This is the page that lists all the various site news articles not related to Last Contact canon."/>
 </head>
 <body>
     <header id="top">
@@ -41,7 +41,49 @@
         <section id="start-here">
           <h3>Start Here</h3>
           <p>This is where I put all the news about the website and the setup thereof. These items are not related to Last Contact canon, but impact the way the site itself is run.</p>
-            <p><a href="#top">Back to Top &#8593;</a></p>
+          <p><a href="#top">Back to Top &#8593;</a></p>
+        </section>
+        <section id="articles">
+          <details name="articles">
+            <summary>Oops, New Site! - September 29, 2025</summary>
+            <p>A look at what happened to the old website, why I opted to go small web, and what's happning next as I rebuild the content.</p>
+            <a href="newsite.html" class="button">Read More: Oops, New Site!</a>
+          </details>
+          <details name="articles">
+            <summary>New Navigation - March 23, 2025</summary>
+            <p>Coming Soon</p>
+            <!-- <p>Synopsis: </p> -->
+            <!-- <p>Expected Reading Time: </p> -->
+            <!-- <a href="newsite.html" class="button">Read More: Oops, New Site!</a> -->
+          </details>
+          <details name="articles">
+            <summary>Writing a Big Story - February 8, 2025</summary>
+            <p>Coming Soon</p>
+            <!-- <p>Synopsis: </p> -->
+            <!-- <p>Expected Reading Time: </p> -->
+            <!-- <a href="newsite.html" class="button">Read More: Oops, New Site!</a> -->
+          </details>
+          <details name="articles">
+            <summary>It’s Back - November 17, 2024</summary>
+            <p>Coming Soon</p>
+            <!-- <p>Synopsis: </p> -->
+            <!-- <p>Expected Reading Time: </p> -->
+            <!-- <a href="newsite.html" class="button">Read More: Oops, New Site!</a> -->
+          </details>
+          <details name="articles">
+            <summary>Not This Week - January 6, 2024</summary>
+            <p>Coming Soon</p>
+            <!-- <p>Synopsis: </p> -->
+            <!-- <p>Expected Reading Time: </p> -->
+            <!-- <a href="newsite.html" class="button">Read More: Oops, New Site!</a> -->
+          </details>
+          <details name="articles">
+            <summary>It’s Happening - December 18, 2023</summary>
+            <p>Coming Soon</p>
+            <!-- <p>Synopsis: </p> -->
+            <!-- <p>Expected Reading Time: </p> -->
+            <!-- <a href="newsite.html" class="button">Read More: Oops, New Site!</a> -->
+          </details>
         </section>
     </main>
     <footer>
@@ -57,34 +99,3 @@
     </footer>
 </body>
 </html>
-
-
-
-
----
-title: Index
-section: Site News Blog
-description: An idex page for the Site news category and a brief description of what the section of the blog is geared toward.
-author: Josie Troiani
-asIndexPage: true
----
-import { Cards } from 'nextra/components'
-import { MDXRemote } from 'nextra/mdx-remote'
-import { createIndexPage, getPageMap } from 'nextra/page-map'
-
-# Site News
-
-This is where I put all the news about the website and the setup thereof.
-
-## Articles
-
-<MDXRemote
-  compiledSource={
-    await createIndexPage(
-      await getPageMap('/sitenews')
-    )
-  }
-  components={{
-    Cards
-  }}
-/>

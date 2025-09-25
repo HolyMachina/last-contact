@@ -41,7 +41,7 @@
         <section id="start-here">
           <h3>What is the Compendium</h3>
 <aside>
-<h5>Table of Contents</h5>
+<p><b>Table of Contents</b></p>
 <ul>
 <li><a href="#characters">Characters</a></li>
 <li><a href="#timeline">Timeline</a></li>
@@ -49,8 +49,8 @@
 </ul>
 </aside>
         <p>If you want extra documentation about the universe of Last Contact that information can be found here. While not directly related to the story it can help give some specifics that help provide a little more detail or context.</p>
-<p>As I get questions that are not answered by the Last Contact story I'll either include them in the story or make a compendium entry and add it here.</p>
-            <p><a href="#top">Back to Top &#8593;</a></p>
+        <p>As I get questions that are not answered by the Last Contact story I'll either include them in the story or make a compendium entry and add it here.</p>
+        <p><a href="#top">Back to Top &#8593;</a></p>
         </section>
         <section id="characters">
 <h3>Characters</h3>
@@ -81,36 +81,3 @@
     </footer>
 </body>
 </html>
-
-
-
-
----
-title: Landing Page
-section: The Compendium
-description: Last Contact is a sci-fi political thriller space opera set in the 23rd and 24th centuries. This compendium has an encyclopedia like documentation of various items
-author: Josie Troiani
-asIndexPage: true
----
-import { Cards } from 'nextra/components'
-import { MDXRemote } from 'nextra/mdx-remote'
-import { createIndexPage, getPageMap } from 'nextra/page-map'
-
-# The Compendium
-
-## Where did I find myself?
-
-If you need or want extra documentation about the universe of Last Contact that information can be found here. While not directly related to the story it can help give some specifics that help provide a little more detail.
-
-## Sections
-
-<MDXRemote
-  compiledSource={
-    await createIndexPage(
-      await getPageMap('/compendium')
-    )
-  }
-  components={{
-    Cards,
-  }}
-/>
