@@ -1,0 +1,44 @@
+{
+    "dictionaries": 
+    [
+        "fictional-names", 
+        "real-names", 
+        "not-yet-words", 
+        "fictional-things", 
+        "real-things",
+        "crysix-titles"
+    ],
+    "dictionaryDefinitions": 
+    [
+        {
+            "name": "fictional-names",
+            "path": "./.cspell/fictional-names.txt",
+            "addWords": true
+        },
+        {
+            "name": "real-names",
+            "path": "./.cspell/real-names.txt",
+            "addWords": true
+        },
+        {
+            "name": "not-yet-words",
+            "path": "./.cspell/not-yet-words.txt",
+            "addWords": true
+        },
+        {
+            "name": "fictional-things",
+            "path": "./.cspell/fictional-things.txt",
+            "addWords": true
+        },
+        {
+            "name": "real-things",
+            "path": "./.cspell/real-things.txt",
+            "addWords": true
+        },
+        {
+            "name": "crysix-titles",
+            "path": "./.cspell/crysix-titles.txt",
+            "addWords": true
+        }
+    ]
+}

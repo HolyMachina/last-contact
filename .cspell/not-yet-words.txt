@@ -1,0 +1,9 @@
++licensable
++licenses
+compatible+
+creativecommons
+hopepunk
+Stargate
+sub+
+waivable
+Xenology
