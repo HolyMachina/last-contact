@@ -1,4 +1,5 @@
 Abildgaard
+Aktug
 Alestra
 Allorien
 Amalee
@@ -6,6 +7,7 @@ Beyar
 Delfoi
 Eblypso
 Hami
+Hedlund
 Jaedon
 Kikue
 Lilija
@@ -16,6 +18,7 @@ Oortwijn
 Oskar
 Palnov
 Serafín
+Serim
 Tatsuda
 Xavix
 Ylena

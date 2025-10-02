@@ -2,6 +2,7 @@ axion
 Bosphorus
 Eiran
 Patera
+Planum
 Regio
 Saibansho
 Saikō
