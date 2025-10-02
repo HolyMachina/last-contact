@@ -1,6 +1,7 @@
 Abildgaard
 Alestra
 Allorien
+Beyar
 Delfoi
 Eblypso
 Hami
@@ -14,3 +15,4 @@ Oortwijn
 Oskar
 Palnov
 Tatsuda
+Xavix
