@@ -1,6 +1,7 @@
 Abildgaard
 Alestra
 Allorien
+Amalee
 Beyar
 Delfoi
 Eblypso
@@ -17,3 +18,4 @@ Palnov
 Serafín
 Tatsuda
 Xavix
+Ylena
