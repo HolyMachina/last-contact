@@ -97,5 +97,3 @@ User-agent: YandexAdditional
 User-agent: YandexAdditionalBot
 User-agent: YouBot
 Disallow: /
-
-Sitemap: https://lastcontact.space/sitemap.xml
