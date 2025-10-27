@@ -1,7 +1,7 @@
 /* TEAM */
 Author & Developer: Josephine Troiani
 Nickname: Josie Troiani
-From: Chicago Metro, Illinois, United States
+Location: Chicago Metro, Illinois, United States
 Mastodon: holymachina@lgbtqia.space
 BlueSky: holymachina.bsky.social
 
