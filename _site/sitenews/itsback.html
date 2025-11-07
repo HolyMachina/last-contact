@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <!-- style metadata -->
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <link rel="stylesheet" href="../css/custom.css">
+    <!-- tech metadata -->
+    <meta charset="utf-8">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Last Contact">
+    <meta name="format-detection" content="telephone=no, email=no, date=no, address=no, url=no">
+    <meta name="viewport" content="width=device-width">
+    <!-- human metadata -->
+    <link rel="author" href="humans.txt">
+    <title>It's Back | Last Contact News</title>
+    <meta property="og:title" content="It's Back | Last Contact News">
+    <meta name="description" content="Last Contact, my blog, and the associated website, is back! Read about it here!">
+    <meta property="og:description" content="Last Contact, my blog, and the associated website, is back! Read about it here!">
+</head>
+<body>
+    <header id="top">
+        <h1>Last Contact</h1>
+        <p>The hopepunk web novel</p>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../sitenews/index.html">LC News</a>
+            <a href="../privacy.html">Privacy Policy</a>
+            <a href="../license.html">License Terms</a>
+            <a href="../compendium/index.html">The Compendium</a>
+            <br>
+            <a href="../readbook.html">Read in Book Order</a>
+            <a href="../readchronological.html">Read in Chronological Order</a>
+            <a href="../readpublication.html">Read in Publication Order</a>
+
+        </nav>
+    </header>
+    <main>
+        <h2>It's Back</h2>
+        <p>
+            Publication Date: November 17, 2024
+        </p>
+        <section id="my-life">
+            <h3>It's been a while 🎶</h3>
+            <p>Well, it's been about 11 months since I went on hiatus in January.</p>
+            <h4>Since then I've</h4>
+            <ul>
+                <li>said goodbye to my a dog -- I will always miss you Rouge</li>
+                <li>got a new dog -- Welcome to the family Morax</li>
+                <li>became overly stressed and hateful of my job</li>
+                <li>went on a work trip</li>
+                <li>got COVID-19 for the first time, during the work trip</li>
+                <li>realized I can make permanent plans and control my own destiny.</li>
+                <li>started thinking about buying a house</li>
+                <li>partner had surgery</li>
+                <li>got very depressed and stressed over politics and the election</li>
+                <li>had to deal with the landlord regarding mold in the house</li>
+                <li>got a new job</li>
+                <li>got settled in the new job</li>
+                <li>voted in the election...</li>
+                <li>... watched election returns.</li>
+                <li>cried a lot.</li>
+                <li>stopped thinking about buying a house</li>
+                <li>attended my 20th high school reunion</li>
+                <li>wanted something I could *do* that's permanent but also doesn't lock me in here.</li>
+                <li>revamped this entire site (and changed the primary domain)</li>
+            </ul>
+            <p>Today, for my birthday, I'm going to spend a bunch of time writing and hanging out on the couch with my partner and Morax while watching Arcane again.</p>
+            <p>I didn't really appreciate how much I had done this year since I went on hiatus in early January, writing all that out really brought it into focus. Quite a year.</p>
+            <h4>My Apologies</h4>
+            <p>I'm really sorry just after starting something I went on hiatus for so long, there was also a time when the site was down so that sucks too. Between all the stuff going on and some depression symptoms I struggled to feel creative and good enough to write. But at the same time there was a lot of things that were floating about in my head and I made lots of notes. We'll see how things go this time around. I'll be honest I don't have a great track record with follow through.</p>
+            <p><a href="#top">Back to Top &#8593;</a></p>
+        </section>
+        <section id="the-tech">
+            <h3>The Tech</h3>
+            <p>I mentioned that I completely rebuilt the website. Hopefully it is more easy to read and use in this form. The official domain is also now last-contact.net. but both that one and the old one will still work for a while. I have completely changed the tech stack from the bottom up, despite all the content being the same. My goals were to get away from <i>needless</i> complication and disassociate myself with WordPress.</p>
+            <h4>The Old Tech</h4>
+            <p>I used an Azure Web App instance and Azure ASP database to host a WordPress website with a customized basic built in theme. It was very bloated for the need. Not only did I not need login and user profile systems but to keep everything in a database instead of just a random folder of pages is like... WTF. The database server was ~$3.09 per day and the web app itself was ~$1.32 a day. The system required all kinds of additional networking configurations in Azure and stuff as well as a separate SSL certificate. Additionally there were all kinds of <i>not really optional</i> optional plugins that just come along with WordPress these days. Talk about bloat. Makes me think of getting a new computer from best buy.</p>
+            <p>There's a point where something gets too big to serve the little guy (or girl in my case).</p>
+            <p>Well WordPress... You reached that point! ta ta!</p>
+            <h4>The Goal</h4>
+            <p>When I was in a job working with <i>actual tech</i> I soured on software development. I went to school for it for a while... My career ended up being in Datacenters specifically the hardware in the Datacenters. I was doing some very base level configurations and settings at times and didn't really have the bandwidth to maintain my own life of technology outside of work. However, coming out of this WordPress experience my goal was to <i>make my own website</i> I'm still not there, as you'll see below... but, my goal is to get there.</p>
+            <p>I thought... Maybe I should just go back to HTML, CSS, and JavaScript straight up code like the old days? But I was curious... what's out there... I started looking up different ways to make website these days and of course there was the Bloggers and WordPresses of it all... but then I found words like React, Angular, Next.js, and some others. I played with a couple frameworks but really liked React and Next.js. So I found a documents template a liked called Nextra and rolled with it.</p>
+            <h4>Something New</h4>
+            <p>So... I started a new codebase inheriting Nextra's Docs Template. I put it on GitHub and setup a new Azure Static Web App to auto compile it anytime I change the codebase. I can also use Git Hub's activity log to keep myself accountable to writing. The repro is still private for now but if you find errors (either canon inconsistency or grammar/spelling) please notify me though git hub's issue process. (there's a link on the sidebar to the right.)</p>
+            <p>Since Nextra, React, Next.js, and GitHub are all free my total cost is just the static web app which is... ~$0.88 per day. Additionally I picked up a one time cost of the new domain. $11.99.</p>
+            <p>Having more control over the actual <i>code</i> is important to me, but the key thing that I'm excited about with the new setup is that I can understand and explain most of the tech stack. As time goes on I'd like to take the Nextra template out of the stack and learn how to do my own UI stuff, but I'm super bad at visual stuff like that... At that point I'll really understand the stack, but at least now I can <i>explain</i> it. So, I expect to have Nextra around for a while.</p>
+            <p><a href="#top">Back to Top &#8593;</a></p>
+        </section>
+        <section id="chapter-nav">
+            <h3>Site News Navigation</h3>
+            <ul class="chapt-nav">
+                <li><a class="button" aria-disabled="true">&#171; <b>Previous:</b> Not This Week &#171;</a></li>
+                <li><a class="button" href="index.html">Site News Index</a></li>
+                <li><a class="button" href="writing.html">&#187; <b>Next:</b> Writing a Big Story &#187;</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Check out my other sites: <a href="https://josietroiani.me" target="_blank">About Josie &#8599;</a> and <a href="https://tethics.blog" target="_blank">Tethics &#8599;</a>
+            <br>
+            Hit me up on <a rel="me" href="https://lgbtqia.space/@holymachina" target="_blank"><img width="15" height="15" loading="lazy" src="../images/mastodon-logo.webp" alt="Mastodon logo icon.">Mastodon  &#8599;</a>, <a rel="nofollow"  target="_blank" href="https://bsky.app/profile/lastcontact.space"><img width="15" height="15" loading="lazy" src="../images/bluesky-logo.webp" alt="Bluesky logo icon.">Bluesky  &#8599;</a>, or <a rel="nofollow" target="_blank" href="https://www.linkedin.com/in/jotroian"><img width="15" height="15" loading="lazy" src="../images/linkedin-logo.webp" alt="LinkedIn logo icon.">LinkedIn  &#8599;</a>.
+            <br>
+            <a href="https://lastcontact.space">Last Contact</a> &#169; 2023 - 2025 by <a href="https://josietroiani.me">Josephine Troiani &#8599;</a>.
+            <br>
+            Last Contact is licensed <a rel="nofollow" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0  &#8599;<img width="80" height="15" loading="lazy" src="../images/by-sa-80x15.webp" alt="Official CC BY-SA press kit banner."></a>
+        </p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
