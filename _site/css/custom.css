@@ -54,3 +54,7 @@ body > footer {
 ul.chapt-nav {
   list-style: none;
 }
+
+p.connector {
+  text-align: center;
+}
