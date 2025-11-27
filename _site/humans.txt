@@ -1,8 +1,14 @@
 /* TEAM */
-Author & Developer: Josephine Troiani
+Author: Josephine Troiani
 Nickname: Josie Troiani
 Location: Chicago Metro, Illinois, United States
-Mastodon: holymachina@lgbtqia.space
+Mastodon: holymachina[at]lgbtqia.space
+BlueSky: holymachina.bsky.social
+
+Developer: Josephine Troiani
+Nickname: Josie Troiani
+Location: Chicago Metro, Illinois, United States
+Mastodon: holymachina[at]lgbtqia.space
 BlueSky: holymachina.bsky.social
 
 /* THANKS */
