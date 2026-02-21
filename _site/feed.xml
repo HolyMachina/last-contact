@@ -10,5 +10,12 @@
         <docs>https://www.rssboard.org/rss-specification</docs>
         <ttl>60</ttl>
         <atom:link href="https://lastcontact.space/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title>Dedication</title>
+            <description>Tim Li, the President of Humanity, consults with his closest advisors before one of the most important speeches of his career.</description>
+            <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+            <link>https://lastcontact.space/prologue/dedication</link>
+            <guid isPermaLink="true">https://lastcontact.space/prologue/dedication</guid>
+        </item>
     </channel>
 </rss>
