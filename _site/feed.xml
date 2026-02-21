@@ -1,0 +1,13 @@
+<rss version="2.0">
+    <channel>
+        <title>Last Contact, the hopepunk webnovel.</title>
+        <link>https://lastcontact.space/</link>
+        <description>An RSS Feed containing the chapters of Last Contact which is a hopepunk webnovel set in the 23nd and 24rd centuries of human history.</description>
+        <language>en-us</language>
+        <copyright>CC BY-SA 4.0 2023-2026, Josephine Troiani</copyright>
+        <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+        <docs>https://www.rssboard.org/rss-specification</docs>
+        <ttl>60</ttl>
+        <atom:link href="https://lastcontact.space/feed.xml" rel="self" type="application/rss+xml"/>
+    </channel>
+</rss>
