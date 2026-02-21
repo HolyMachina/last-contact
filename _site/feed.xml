@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Last Contact, the hopepunk webnovel.</title>
-        <link>https://lastcontact.space/</link>
+        <link>https://lastcontact.space/index.html</link>
         <description>An RSS Feed containing the chapters of Last Contact which is a hopepunk webnovel set in the 23nd and 24rd centuries of human history.</description>
         <language>en-us</language>
         <copyright>CC BY-SA 4.0 2023-2026, Josephine Troiani</copyright>
@@ -11,11 +11,32 @@
         <ttl>60</ttl>
         <atom:link href="https://lastcontact.space/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title>Memories</title>
+            <description>Alestra Amalee (codename: Ylena) sneaks into the underground storage vault of Terra Firma's Empire to steal her way to a new life.</description>
+            <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+            <link>https://lastcontact.space/thepact/memories.html/link>
+            <guid isPermaLink="true">https://lastcontact.space/thepact/memories.html</guid>
+        </item>
+        <item>
+            <title>Beginning</title>
+            <description>Allorien watches an act of terrorism. Instructed not to interfere they are staggered by humanity's desire to fight each other.</description>
+            <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+            <link>https://lastcontact.space/thepact/beginning.html</link>
+            <guid isPermaLink="true">https://lastcontact.space/thepact/beginning.html</guid>
+        </item>
+        <item>
+            <title>Acknowledgment</title>
+            <description>Tim Li, the President of Humanity, gives a speech to all of humanity that may save, or end, his career.</description>
+            <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+            <link>https://lastcontact.space/prologue/acknowledgment.html</link>
+            <guid isPermaLink="true">https://lastcontact.space/prologue/acknowledgment.html</guid>
+        </item>
+        <item>
             <title>Dedication</title>
             <description>Tim Li, the President of Humanity, consults with his closest advisors before one of the most important speeches of his career.</description>
             <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
-            <link>https://lastcontact.space/prologue/dedication</link>
-            <guid isPermaLink="true">https://lastcontact.space/prologue/dedication</guid>
+            <link>https://lastcontact.space/prologue/dedication.html</link>
+            <guid isPermaLink="true">https://lastcontact.space/prologue/dedication.html</guid>
         </item>
     </channel>
 </rss>
