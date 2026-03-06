@@ -11,6 +11,76 @@
         <ttl>60</ttl>
         <atom:link href="https://lastcontact.space/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title>Building</title>
+            <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
+            <description>Chancellor Fulton leads his generals in building a plan to intimidate Terra Further. Cassandra has her own feelings about the project.</description>
+            <link>https://lastcontact.space/factions/building.html</link>
+            <guid isPermaLink="true">https://lastcontact.space/factions/building.html</guid>
+        </item>
+        <item>
+            <title>The Pact</title>
+            <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+            <description>Ten years after meeting, Tim Li and Allorien head to the Crysix home world of Eblypso to sign a pact between the two species marking a step forward in the relations of the species.</description>
+            <link>https://lastcontact.space/thepact/pactchapter.html</link>
+            <guid isPermaLink="true">https://lastcontact.space/thepact/pactchapter.html</guid>
+        </item>
+        <item>
+            <title>Welcoming</title>
+            <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+            <description>After Retreating from Venus' space protections moving to Venus' Second Lagrange Point, Allorien is asked to come aboard Edith. Humans make contact with an alien species.</description>
+            <link>https://lastcontact.space/thepact/welcoming.html</link>
+            <guid isPermaLink="true">https://lastcontact.space/thepact/welcoming.html</guid>
+        </item>
+        <item>
+            <title>Blow Up</title>
+            <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+            <description>A scientist who melds two oft separate practices becomes frustrated. Chancellor Fulton punishes his top generals. Cassandra Fulton, well, is Cassandra.</description>
+            <link>https://lastcontact.space/thepact/blowup.html</link>
+            <guid isPermaLink="true">https://lastcontact.space/thepact/blowup.html</guid>
+        </item>
+        <item>
+            <title>Discovery</title>
+            <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
+            <description>Allorien watches the launch of the Hubble Space Telescope and wishes it really could be used to discover what humanity needed to see.</description>
+            <link>https://lastcontact.space/thepact/discovery.html</link>
+            <guid isPermaLink="true">https://lastcontact.space/thepact/discovery.html</guid>
+        </item>
+        <item>
+            <title>Mission</title>
+            <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
+            <description>Jaedon Beyar (codename: Xavix) receives his secret mission from The King of Venus. And the king continues a long going feud with the official elected leadership of the Republic.</description>
+            <link>https://lastcontact.space/prologue/mission.html</link>
+            <guid isPermaLink="true">https://lastcontact.space/prologue/mission.html</guid>
+        </item>
+        <item>
+            <title>Breakthrough</title>
+            <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+            <description>A little bit into the journey to Venus, in the middle of the asteroid belt, Tim reaches out with his mind, and finds something not quite human.</description>
+            <link>https://lastcontact.space/thepact/breakthrough.html</link>
+            <guid isPermaLink="true">https://lastcontact.space/thepact/breakthrough.html</guid>
+        </item>
+        <item>
+            <title>The Three</title>
+            <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+            <description>Sam, Gwen, and Tim all find different paths into Terra Firma's net. Trapped by the Chancellors orders the three of them don't know what comes next.</description>
+            <link>https://lastcontact.space/prologue/thethree.html</link>
+            <guid isPermaLink="true">https://lastcontact.space/prologue/thethree.html</guid>
+        </item>
+        <item>
+            <title>Hatred</title>
+            <description>Chancellor Fulton Reacts to the theft of the memory cores from the underground vault and plans for a new system of control.</description>
+            <pubDate>Fri, 29 Nov 2024 00:00:00 +0000</pubDate>
+            <link>https://lastcontact.space/thepact/hatred.html</link>
+            <guid isPermaLink="true">https://lastcontact.space/thepact/hatred.html</guid>
+        </item>
+        <item>
+            <title>Fracture</title>
+            <description>One third of humanity leaves the only planet home we had ever known, Earth, to start a new life somewhere else. Allorien and their new junior Fae watch the process as it unfolds.</description>
+            <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
+            <link>https://lastcontact.space/factions/fracture.html</link>
+            <guid isPermaLink="true">https://lastcontact.space/factions/fracture.html</guid>
+        </item>
+        <item>
             <title>World War Three</title>
             <description>Humanity fights itself, again, in the third world war. The Eurasian Empire defends the city of Mariupol. Sai and Allorien witness the very thing they were trying to prevent. Sai retires.</description>
             <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
