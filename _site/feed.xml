@@ -3,13 +3,104 @@
     <channel>
         <title>Last Contact, the hopepunk webnovel.</title>
         <link>https://lastcontact.space/index.html</link>
-        <description>An RSS Feed containing the chapters of Last Contact which is a hopepunk webnovel set in the 23nd and 24rd centuries of human history.</description>
+        <description>An RSS Feed containing the chapters of Last Contact which is a hopepunk webnovel set in the 23rd and 24rd centuries of human history.</description>
         <language>en-us</language>
         <copyright>CC BY-SA 4.0 2023-2026, Josephine Troiani</copyright>
         <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <ttl>60</ttl>
         <atom:link href="https://lastcontact.space/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title>Io</title>
+            <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
+            <description>Sam and Gwen train for the war, on the very hostile volcanic moon of Jupiter.</description>
+            <link>https://lastcontact.space/civilwar/io.html</link>
+            <guid isPermaLink="true">https://lastcontact.space/civilwar/io.html</guid>
+        </item>
+        <item>
+            <title>Backdoor</title>
+            <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
+            <description>A backdoor built into the government of the United States decades ago gets triggered and locks down some key data that is needed to enforce power and restart the cycle.</description>
+            <link>https://lastcontact.space/civilwar/backdoor.html</link>
+            <guid isPermaLink="true">https://lastcontact.space/civilwar/backdoor.html</guid>
+        </item>
+        <item>
+            <title>Polymer Twins</title>
+            <pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
+            <description>Tim & Allorien travel to Pluto with Sen. Pace, traveling though the Polymer Twins that protect Pluto.</description>
+            <link>https://lastcontact.space/factions/polymertwins.html</link>
+            <guid isPermaLink="true">https://lastcontact.space/factions/polymertwins.html</guid>
+        </item>
+        <item>
+            <title>Representation</title>
+            <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
+            <description>King Romulus witnesses Le'Rue abandoning the lives of Sam and Tim to save the king's daughter when he could have saved all three.</description>
+            <link>https://lastcontact.space/civilwar/representation.html</link>
+            <guid isPermaLink="true">https://lastcontact.space/civilwar/representation.html</guid>
+        </item>
+        <item>
+            <title>Reignite</title>
+            <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
+            <description>Sai is on trial for violating her oath to watch humanity without interference, and old wound in the Crysix species reopens.</description>
+            <link>https://lastcontact.space/civilwar/reignite.html</link>
+            <guid isPermaLink="true">https://lastcontact.space/civilwar/reignite.html</guid>
+        </item>
+        <item>
+            <title>Projection</title>
+            <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
+            <description>An alien is seen a human spacecraft for the first time, and Tim witnesses a Crysix coming of age ceremony.</description>
+            <link>https://lastcontact.space/civilwar/projection.html</link>
+            <guid isPermaLink="true">https://lastcontact.space/civilwar/projection.html</guid>
+        </item>
+        <item>
+            <title>Keeping Notes</title>
+            <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
+            <description>Jamie learns a disturbing truth about his parents, and starts opening his mind to the history of humanity.</description>
+            <link>https://lastcontact.space/thepact/keepingnotes.html</link>
+            <guid isPermaLink="true">https://lastcontact.space/thepact/keepingnotes.html</guid>
+        </item>
+        <item>
+            <title>The Generals</title>
+            <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
+            <description>Sam, Gwen & Tim are introduced to the two generals that will guide their skill development and more details surface about the Axion particle that powers the Crysix society.</description>
+            <link>https://lastcontact.space/civilwar/thegenerals.html</link>
+            <guid isPermaLink="true">https://lastcontact.space/civilwar/thegenerals.html</guid>
+        </item>
+        <item>
+            <title>Avalon</title>
+            <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
+            <description>Jaedon tears through poisonous clouds of venus with everyone in his ship to reach Avalon Castle undetected. They all face a security system that had never seen a Crysix being before.</description>
+            <link>https://lastcontact.space/factions/avalon.html</link>
+            <guid isPermaLink="true">https://lastcontact.space/factions/avalon.html</guid>
+        </item>
+        <item>
+            <title>Connection</title>
+            <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
+            <description>Cassandra, at 13, makes a connection with a 14 year old thief. A connection that will last a very long time with a great deal of benefit to both parties.</description>
+            <link>https://lastcontact.space/factions/connection.html</link>
+            <guid isPermaLink="true">https://lastcontact.space/factions/connection.html</guid>
+        </item>
+        <item>
+            <title>The Wall</title>
+            <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
+            <description>Gwen, Sam, & Tim explore the far reaches of the grounds of their university and find that there is much more to the world than they expected.</description>
+            <link>https://lastcontact.space/factions/thewall.html</link>
+            <guid isPermaLink="true">https://lastcontact.space/factions/thewall.html</guid>
+        </item>
+        <item>
+            <title>History Class</title>
+            <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
+            <description>Nearly six years after being assigned the mission, Jaedon Beyar is teaching history and begins the process of saving three young people from prison.</description>
+            <link>https://lastcontact.space/factions/historyclass.html</link>
+            <guid isPermaLink="true">https://lastcontact.space/factions/historyclass.html</guid>
+        </item>
+        <item>
+            <title>Bridge</title>
+            <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
+            <description>Prince Hedlund receives a back channel communication from Senator Pace, in an attempt to create a calmer future.</description>
+            <link>https://lastcontact.space/factions/bridge.html</link>
+            <guid isPermaLink="true">https://lastcontact.space/factions/bridge.html</guid>
+        </item>
         <item>
             <title>Building</title>
             <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
